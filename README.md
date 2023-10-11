@@ -16,8 +16,11 @@ cd quiz_questions
     - `DATABASE_USERNAME`
     - `DATABASE_PASSWORD`
     - `DATABASE_NAME`
-5. Run docker-compose: ```docker-compose up -d```
-6. After all containers are up and running, try out API:  
+5. Run docker-compose:  
+```
+docker-compose up -d
+```
+7. After all containers are up and running, try out API:  
     - using curl:  
     ```
     curl -H "Content-Type: application/json" -X POST -d '{"questions_num":1}' http://0.0.0.0:8000/quiz/api/v1.0/save_quiz_questions
