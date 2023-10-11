@@ -1,13 +1,4 @@
-docker compose build
-
-docker-compose up -d
-
-docker-compose down
-
-
 # Quiz questions API
-
-
 ## Requirements:
 * docker >= 24
 * docker-compose
